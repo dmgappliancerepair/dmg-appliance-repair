@@ -321,7 +321,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
   font-family: "Cantata One", serif;
   color: #fff;
-  line-height: 40px;
+  line-height: 50px;
   transition: all 400ms linear 0s;
   padding-right: 1px;
 }
@@ -1478,9 +1478,9 @@ body, p, h1, h2, h3, h4, h5, h6 {
 
 .most_popular_item_area .p_recype_item_main .media .media-body {
   border: 1px solid #6c6cff;
-  padding-left: 15px;
-  border-left: 0px;
-  padding-right: 15px;
+  padding-left: 10px;
+  border-left: 1px;
+  padding-right: 10px;
 }
 
 .most_popular_item_area .p_recype_item_main .media .media-body h3 {
@@ -1499,7 +1499,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
   font-size: 14px;
   font-family: "Cantata One", serif;
   text-transform: uppercase;
-  color: #b10400;
+  color: #6c6cff;
   padding-top: 15px;
 }
 
@@ -1807,7 +1807,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .about_us_content .about_inner_item .about_left_content ul li a i {
-  color: #b10400;
+  color: #6c6cff;
   padding-right: 5px;
 }
 
@@ -1816,7 +1816,7 @@ body, p, h1, h2, h3, h4, h5, h6 {
 }
 
 .about_us_content .about_inner_item .about_left_content ul li:hover a {
-  color: #b10400;
+  color: #6c6cff;
 }
 
 .about_us_content .about_inner_item .about_right_image img {
@@ -3279,6 +3279,66 @@ body, p, h1, h2, h3, h4, h5, h6 {
 
 /* End Banner area css
 ============================================================================================ */
+
+/*==========================================================================================*/
+/*  Begin Index area css                                                                    */
+/*==========================================================================================*/
+.index_area {
+  background: url(../img/index/index-bg-1.jpg) no-repeat scroll center center;
+  background-size: cover;
+  min-height: 650px;
+}
+
+.index_area .index_content {
+  text-align: center;
+  padding: 340px 0px 0px 0px;
+}
+
+.index_area .index_content h4 {
+  color: #fff;
+  font-family: "Cantata One", serif;
+  font-size: 36px;
+  padding-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.index_area .index_content a {
+  font-size: 18px;
+  font-family: "Open Sans", sans-serif;
+  color: #fff;
+  margin-right: 15px;
+  position: relative;
+}
+
+.index_area .index_content a:last-child {
+  margin-right: 0px;
+}
+
+.index_area .index_content a:last-child:before {
+  display: none;
+}
+
+.index_area .index_content a:before {
+  content: "/";
+  color: #fff;
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  position: absolute;
+  right: -14px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.index_area .index_content a.active {
+  color: #6c6cff;
+}
+
+/*==========================================================================================*/
+/*  End Index area css                                                                      */
+/*==========================================================================================*/
+
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
 /* Our Feature css
